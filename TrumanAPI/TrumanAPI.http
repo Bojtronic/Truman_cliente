@@ -1,0 +1,6 @@
+@TrumanAPI_HostAddress = http://localhost:5192
+
+GET {{TrumanAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

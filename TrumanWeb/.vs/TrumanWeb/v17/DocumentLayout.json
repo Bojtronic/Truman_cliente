@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\services\\service_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:services\\service_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\services\\iservice_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:services\\iservice_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\desktop\\truman\\trumanweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 332,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvx8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T23:15:30.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:05:34.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:03:04.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service_API.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Services\\Service_API.cs",
+              "RelativeDocumentMoniker": "Services\\Service_API.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Services\\Service_API.cs",
+              "RelativeToolTip": "Services\\Service_API.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:25:17.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T22:20:16.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IService_API.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Services\\IService_API.cs",
+              "RelativeDocumentMoniker": "Services\\IService_API.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\Services\\IService_API.cs",
+              "RelativeToolTip": "Services\\IService_API.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:19:19.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T22:16:29.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qczBkGz9sKnQ0gFXX0VgH/f1NV0IeDaA0Vv6lWFFfk4=",
+  "Source": "TrumanAPI",
+  "BasePath": "_content/TrumanAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
