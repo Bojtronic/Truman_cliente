@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanAPI\\TrumanAPI.csproj": {}
+    "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\TrumanAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanAPI\\TrumanAPI.csproj": {
+    "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\TrumanAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanAPI\\TrumanAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\TrumanAPI.csproj",
         "projectName": "TrumanAPI",
-        "projectPath": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanAPI\\TrumanAPI.csproj",
+        "projectPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\TrumanAPI.csproj",
         "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanAPI\\obj\\",
+        "outputPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

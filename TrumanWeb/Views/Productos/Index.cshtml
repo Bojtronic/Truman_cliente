@@ -1,0 +1,48 @@
+﻿@model List<TrumanWeb.Models.Producto>
+@{
+    ViewData["Title"] = "Productos - Lista";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Productos</h1>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Productos
+        <a href="@Url.Action("Crear")" class="btn btn-primary float-end">Crear Producto</a>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Categoria</th>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var producto in Model)
+                {
+                    <tr>
+                        <td>@producto.Id</td>
+                        <td>@producto.Categoria</td>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Descripcion</td>
+                        <td>@producto.Cantidad</td>
+                        <td>
+                            <a href="@Url.Action("Detalle", new { id = producto.Id })" class="btn btn-info">Ver</a>
+                            <a href="@Url.Action("Editar", new { id = producto.Id })" class="btn btn-warning">Editar</a>
+                            <form action="@Url.Action("Eliminar", new { id = producto.Id })" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-danger">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

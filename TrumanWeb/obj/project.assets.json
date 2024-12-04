@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\TrumanWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\TrumanWeb.csproj",
       "projectName": "TrumanWeb",
-      "projectPath": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\TrumanWeb.csproj",
+      "projectPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\TrumanWeb.csproj",
       "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manuel\\Desktop\\TRUMAN\\TrumanWeb\\obj\\",
+      "outputPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

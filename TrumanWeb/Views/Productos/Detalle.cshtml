@@ -1,0 +1,22 @@
+﻿@model TrumanWeb.Models.Producto
+@{
+    ViewData["Title"] = "Detalles del Producto";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Detalles del Producto</h1>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        @Model.Nombre
+    </div>
+    <div class="card-body">
+        <p><strong>Id:</strong> @Model.Id</p>
+        <p><strong>Categoria:</strong> @Model.Categoria</p>
+        <p><strong>Descripcion:</strong> @Model.Descripcion</p>
+        <p><strong>Cantidad:</strong> @Model.Cantidad</p>
+
+        <a href="@Url.Action("Index")" class="btn btn-primary">Volver a la lista</a>
+    </div>
+</div>

@@ -1,78 +1,103 @@
 ﻿using Newtonsoft.Json;
-using System.Net.Http.Headers;
+using System.Net.Http;
 using System.Text;
-using TrumanWeb.Models;
+using System.Threading.Tasks;
 
 namespace TrumanWeb.Services
 {
-    public class Service_API : IService_API
+    public class Service_API<T> : IService_API<T> where T : class
     {
-        private static string _apiurl; 
+        private static readonly string _apiUrl;
 
-        public Service_API()
+        static Service_API()
         {
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-            //_apiurl = builder.GetSection("APIsettings.APIURL").Value;
-            _apiurl = "https://localhost:7186/api/";
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            // Configura la URL base de la API desde appsettings.json
+            _apiUrl = "https://localhost:7186/api/";
         }
 
-        public Task<bool> editar(Usuario objeto)
+        public async Task<List<T>> Lista(string endpoint)
         {
-            throw new NotImplementedException();
-        }
+            List<T> lista = new List<T>();
 
-        public Task<bool> eliminar(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> guardar(Usuario objeto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<List<Usuario>> lista()
-        {
-            List<Usuario> lista = new List<Usuario>();
-
-            var cliente = new HttpClient();
-            cliente.BaseAddress = new Uri(_apiurl);
-
-            var response = await cliente.GetAsync("usuario");
-
-            if (response.IsSuccessStatusCode)
+            using (var cliente = new HttpClient())
             {
-                var json_respuesta = await response.Content.ReadAsStringAsync();
-                var resultado = JsonConvert.DeserializeObject<List<Usuario>>(json_respuesta);
-                lista = resultado;
+                cliente.BaseAddress = new Uri(_apiUrl);
+                var response = await cliente.GetAsync(endpoint);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonRespuesta = await response.Content.ReadAsStringAsync();
+                    lista = JsonConvert.DeserializeObject<List<T>>(jsonRespuesta);
+                }
             }
             return lista;
-            
         }
 
-        public Task<Usuario> obtener(int id)
+        public async Task<T> Obtener(int id, string endpoint)
         {
+            T objeto = null;
 
-            throw new NotImplementedException();
+            using (var cliente = new HttpClient())
+            {
+                cliente.BaseAddress = new Uri(_apiUrl);
+                var response = await cliente.GetAsync($"{endpoint}/{id}");
 
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonRespuesta = await response.Content.ReadAsStringAsync();
+                    objeto = JsonConvert.DeserializeObject<T>(jsonRespuesta);
+                }
+            }
+            return objeto;
         }
 
-
-        /*
-        public async Task obtener()
+        public async Task<bool> Guardar(T objeto, string endpoint)
         {
-            var cliente = new HttpClient();
-            cliente.BaseAddress = new Uri(_apiurl);
+            using (var cliente = new HttpClient())
+            {
+                cliente.BaseAddress = new Uri(_apiUrl);
 
+                var content = new StringContent(
+                    JsonConvert.SerializeObject(objeto),
+                    Encoding.UTF8,
+                    "application/json"
+                );
 
-            var content = new StringContent(JsonConvert.SerializeObject(x), Encoding.UTF8, "application/json");
-
-
-            var response = await cliente.PostAsync("usuario", content);
-            var json_respuesta = await response.Content.ReadAsStringAsync();
-            var resultado = JsonConvert.DeserializeObject<Usuario>(json_respuesta);
-
+                var response = await cliente.PostAsync(endpoint, content);
+                return response.IsSuccessStatusCode;
+            }
         }
-        */
+
+        public async Task<bool> Editar(T objeto, string endpoint)
+        {
+            using (var cliente = new HttpClient())
+            {
+                cliente.BaseAddress = new Uri(_apiUrl);
+
+                var content = new StringContent(
+                    JsonConvert.SerializeObject(objeto),
+                    Encoding.UTF8,
+                    "application/json"
+                );
+
+                var response = await cliente.PutAsync(endpoint, content);
+                return response.IsSuccessStatusCode;
+            }
+        }
+
+        public async Task<bool> Eliminar(int id, string endpoint)
+        {
+            using (var cliente = new HttpClient())
+            {
+                cliente.BaseAddress = new Uri(_apiUrl);
+                var response = await cliente.DeleteAsync($"{endpoint}/{id}");
+                return response.IsSuccessStatusCode;
+            }
+        }
     }
 }

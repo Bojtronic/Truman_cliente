@@ -7,16 +7,16 @@ namespace TrumanWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IService_API _service_api;
+        private readonly IService_API<Usuario> _service_api; // Especificar el tipo de modelo
 
-        public HomeController(IService_API service)
+        public HomeController(IService_API<Usuario> service)
         {
             _service_api = service;
         }
 
         public async Task<IActionResult> Index()
         {
-            List<Usuario> lista = await _service_api.lista();
+            List<Usuario> lista = await _service_api.Lista("usuario"); // Obtener la lista de usuarios
 
             return View(lista);
         }
