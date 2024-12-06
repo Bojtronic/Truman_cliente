@@ -1,4 +1,5 @@
 ﻿@model TrumanWeb.Models.Producto
+
 @{
     ViewData["Title"] = "Detalles del Producto";
 }
@@ -13,10 +14,27 @@
     </div>
     <div class="card-body">
         <p><strong>Id:</strong> @Model.Id</p>
-        <p><strong>Categoria:</strong> @Model.Categoria</p>
-        <p><strong>Descripcion:</strong> @Model.Descripcion</p>
-        <p><strong>Cantidad:</strong> @Model.Cantidad</p>
+        <p><strong>Categoría:</strong> @Model.Categoria?.Descripcion ?? "Sin categoría"</p>
+        <p><strong>Descripción:</strong> @Model.Descripcion</p>
+        <p><strong>Precio:</strong> $@Model.Precio.ToString("F2")</p>
+        <p><strong>Stock:</strong> @Model.Stock</p>
+        <p><strong>Alerta de Stock:</strong> @Model.AlertaStock</p>
+        <p>
+            <strong>URL Imagen:</strong>
+            @if (!string.IsNullOrEmpty(Model.UrlImagen))
+            {
+                <a href="@Model.UrlImagen" target="_blank">@Model.UrlImagen</a>
+            }
+            else
+            {
+                <span>No especificada</span>
+            }
+        </p>
+        <p><strong>Activo:</strong> @(Model.Activo ? "Sí" : "No")</p>
+        <p><strong>Fecha de Registro:</strong> @Model.FechaRegistro.ToString("dd/MM/yyyy HH:mm")</p>
 
-        <a href="@Url.Action("Index")" class="btn btn-primary">Volver a la lista</a>
+        <a href="@Url.Action("Index", "Productos")" class="btn btn-primary">Volver a la lista</a>
+        <a href="@Url.Action("Edit", "Productos", new { id = Model.Id })" class="btn btn-secondary">Editar</a>
+        <a href="@Url.Action("Delete", "Productos", new { id = Model.Id })" class="btn btn-danger">Eliminar</a>
     </div>
 </div>

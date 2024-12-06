@@ -1,41 +1,70 @@
-﻿@model List<Usuario>
+﻿@model TrumanWeb.Controllers.HomeViewModel
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Catálogo de Productos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Catalogo de Productos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Categorias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Título de la página -->
+<div class="text-center mt-5">
+    <h1 class="display-4">Bienvenido al Catálogo</h1>
+    <p class="lead">Explora nuestros productos y categorías.</p>
 </div>
 
-
-<div class="card">
-  <div class="card-header">
-    @ViewBag.Accion
-  </div>
-  <div class="card-body">
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Contrasena</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach(var item in Model)
-                {
-                    <tr>
-                        <td>@item.Id</td>
-                        <td>@item.Nombre</td>
-                        <td>@item.Contrasena</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-
+<!-- Filtro de categorías -->
+<div class="container mt-4">
+    <div class="form-group">
+        <label for="categoriaFilter">Filtrar por Categoría</label>
+        <select id="categoriaFilter" class="form-control">
+            <option value="">Seleccionar Categoría</option>
+            @foreach (var categoria in Model.Categorias)
+            {
+                <option value="@categoria.Id">@categoria.Descripcion</option>
+            }
+        </select>
     </div>
 </div>
 
-
+<!-- Catálogo de productos -->
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var producto in Model.Productos)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@producto.UrlImagen" class="card-img-top" alt="@producto.Nombre">
+                    <div class="card-body">
+                        <h5 class="card-title">@producto.Nombre</h5>
+                        <p class="card-text">@producto.Descripcion</p>
+                        <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
+                        <p class="card-text"><strong>Stock:</strong> @producto.Stock</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,4 +1,5 @@
 ﻿@model List<TrumanWeb.Models.Producto>
+
 @{
     ViewData["Title"] = "Productos - Lista";
 }
@@ -13,14 +14,17 @@
         <a href="@Url.Action("Crear")" class="btn btn-primary float-end">Crear Producto</a>
     </div>
     <div class="card-body">
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Categoria</th>
                     <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Cantidad</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Alerta Stock</th>
+                    <th>Activo</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -29,15 +33,18 @@
                 {
                     <tr>
                         <td>@producto.Id</td>
-                        <td>@producto.Categoria</td>
+                        <td>@producto.Categoria?.Descripcion ?? "Sin categoría"</td>
                         <td>@producto.Nombre</td>
                         <td>@producto.Descripcion</td>
-                        <td>@producto.Cantidad</td>
+                        <td>@producto.Precio.ToString("C")</td>
+                        <td>@producto.Stock</td>
+                        <td>@producto.AlertaStock</td>
+                        <td>@(producto.Activo ? "Sí" : "No")</td>
                         <td>
-                            <a href="@Url.Action("Detalle", new { id = producto.Id })" class="btn btn-info">Ver</a>
-                            <a href="@Url.Action("Editar", new { id = producto.Id })" class="btn btn-warning">Editar</a>
+                            <a href="@Url.Action("Detalle", new { id = producto.Id })" class="btn btn-info btn-sm">Ver</a>
+                            <a href="@Url.Action("Editar", new { id = producto.Id })" class="btn btn-warning btn-sm">Editar</a>
                             <form action="@Url.Action("Eliminar", new { id = producto.Id })" method="post" class="d-inline">
-                                <button type="submit" class="btn btn-danger">Eliminar</button>
+                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
                             </form>
                         </td>
                     </tr>

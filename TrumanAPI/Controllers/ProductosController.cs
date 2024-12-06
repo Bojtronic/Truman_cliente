@@ -27,7 +27,13 @@ namespace TrumanAPI.Controllers
         {
             using (var context = new SqlConnection(GetConnectionString()))
             {
-                var productos = context.Query<Producto>("SELECT * FROM Productos");
+                var productos = context.Query<Producto>(@"
+                    SELECT p.idProducto AS Id, p.idCategoria AS CategoriaId, p.nombreProducto AS Nombre,
+                           p.descripcionProducto AS Descripcion, p.precio AS Precio, p.stock AS Stock,
+                           p.alertaStock AS AlertaStock, p.urlImagen AS UrlImagen, p.activo AS Activo, p.fechaRegistro AS FechaRegistro,
+                           c.idCategoria AS Categoria_Id, c.descripcion AS Categoria_Descripcion
+                    FROM Productos p
+                    LEFT JOIN Categorias c ON p.idCategoria = c.idCategoria");
                 return Ok(productos);
             }
         }
@@ -38,8 +44,14 @@ namespace TrumanAPI.Controllers
         {
             using (var context = new SqlConnection(GetConnectionString()))
             {
-                var producto = context.QueryFirstOrDefault<Producto>(
-                    "SELECT * FROM Productos WHERE Id = @Id", new { Id = id });
+                var producto = context.QueryFirstOrDefault<Producto>(@"
+                    SELECT p.idProducto AS Id, p.idCategoria AS CategoriaId, p.nombreProducto AS Nombre,
+                           p.descripcionProducto AS Descripcion, p.precio AS Precio, p.stock AS Stock,
+                           p.alertaStock AS AlertaStock, p.urlImagen AS UrlImagen, p.activo AS Activo, p.fechaRegistro AS FechaRegistro,
+                           c.idCategoria AS Categoria_Id, c.descripcion AS Categoria_Descripcion
+                    FROM Productos p
+                    LEFT JOIN Categorias c ON p.idCategoria = c.idCategoria
+                    WHERE p.idProducto = @Id", new { Id = id });
 
                 if (producto == null)
                     return NotFound(new { Mensaje = "Producto no encontrado" });
@@ -58,16 +70,20 @@ namespace TrumanAPI.Controllers
             using (var context = new SqlConnection(GetConnectionString()))
             {
                 var sql = @"
-                    INSERT INTO Productos (Categoria, Nombre, Descripcion, Cantidad) 
-                    VALUES (@Categoria, @Nombre, @Descripcion, @Cantidad);
+                    INSERT INTO Productos (idCategoria, nombreProducto, descripcionProducto, precio, stock, alertaStock, urlImagen, activo)
+                    VALUES (@CategoriaId, @Nombre, @Descripcion, @Precio, @Stock, @AlertaStock, @UrlImagen, @Activo);
                     SELECT CAST(SCOPE_IDENTITY() as INT);";
 
                 var id = context.ExecuteScalar<int>(sql, new
                 {
-                    model.Categoria,
+                    model.CategoriaId,
                     model.Nombre,
                     model.Descripcion,
-                    model.Cantidad
+                    model.Precio,
+                    model.Stock,
+                    model.AlertaStock,
+                    model.UrlImagen,
+                    model.Activo
                 });
 
                 model.Id = id;
@@ -85,26 +101,30 @@ namespace TrumanAPI.Controllers
             using (var context = new SqlConnection(GetConnectionString()))
             {
                 // Verificar si el producto existe usando el id del modelo
-                var existingProducto = context.QueryFirstOrDefault<Producto>(
-                    "SELECT * FROM Productos WHERE Id = @Id", new { Id = model.Id });
+                var existingProducto = context.QueryFirstOrDefault<Producto>(@"
+                    SELECT * FROM Productos WHERE idProducto = @Id", new { Id = model.Id });
 
                 if (existingProducto == null)
                     return NotFound(new { Mensaje = "Producto no encontrado" });
 
                 // Actualizar el producto usando los valores del modelo
                 var sql = @"
-            UPDATE Productos 
-            SET Categoria = @Categoria, Nombre = @Nombre, 
-                Descripcion = @Descripcion, Cantidad = @Cantidad 
-            WHERE Id = @Id";
+                    UPDATE Productos 
+                    SET idCategoria = @CategoriaId, nombreProducto = @Nombre, descripcionProducto = @Descripcion, 
+                        precio = @Precio, stock = @Stock, alertaStock = @AlertaStock, urlImagen = @UrlImagen, activo = @Activo 
+                    WHERE idProducto = @Id";
 
                 var rowsAffected = context.Execute(sql, new
                 {
-                    Id = model.Id,  // Usamos el id del modelo
-                    model.Categoria,
+                    Id = model.Id,
+                    model.CategoriaId,
                     model.Nombre,
                     model.Descripcion,
-                    model.Cantidad
+                    model.Precio,
+                    model.Stock,
+                    model.AlertaStock,
+                    model.UrlImagen,
+                    model.Activo
                 });
 
                 if (rowsAffected > 0)
@@ -114,14 +134,13 @@ namespace TrumanAPI.Controllers
             }
         }
 
-
         // DELETE: api/Productos/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteProducto(int id)
         {
             using (var context = new SqlConnection(GetConnectionString()))
             {
-                var sql = "DELETE FROM Productos WHERE Id = @Id";
+                var sql = "DELETE FROM Productos WHERE idProducto = @Id";
                 var rowsAffected = context.Execute(sql, new { Id = id });
 
                 if (rowsAffected > 0)

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BA310A-1842-4ADF-B7A3-48D6399F8E24}|TrumanAPI.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwHUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAIwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T05:59:47.785Z"
+              "WhenOpened": "2024-12-06T03:09:09.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T05:57:38.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
               "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAcwGcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T05:57:02.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanAPI\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:57:38.181Z",
               "EditorCaption": ""
             },
             {

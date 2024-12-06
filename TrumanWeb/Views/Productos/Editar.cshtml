@@ -14,21 +14,60 @@
     </div>
     <div class="card-body">
         <form method="post">
+            <!-- Campo para seleccionar la categoría -->
             <div class="mb-3">
-                <label for="Categoria" class="form-label">Categoría</label>
-                <input type="text" class="form-control" id="Categoria" name="Categoria" value="@Model.Categoria" required />
+                <label for="CategoriaId" class="form-label">Categoría</label>
+                <select class="form-control" id="CategoriaId" name="CategoriaId" required>
+                    <option value="">Seleccione una categoría</option>
+                    @foreach (var categoria in ViewBag.Categorias as List<TrumanWeb.Models.Categoria>)
+                    {
+                        <option value="@categoria.Id" selected="@(categoria.Id == Model.CategoriaId ? "selected" : null)">
+                            @categoria.Descripcion
+                        </option>
+                    }
+                </select>
             </div>
+
+            <!-- Campo para el nombre del producto -->
             <div class="mb-3">
                 <label for="Nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.Nombre" required />
             </div>
+
+            <!-- Campo para la descripción -->
             <div class="mb-3">
                 <label for="Descripcion" class="form-label">Descripción</label>
-                <textarea class="form-control" id="Descripcion" name="Descripcion">@Model.Descripcion</textarea>
+                <textarea class="form-control" id="Descripcion" name="Descripcion" required>@Model.Descripcion</textarea>
             </div>
+
+            <!-- Campo para el precio -->
             <div class="mb-3">
-                <label for="Cantidad" class="form-label">Cantidad</label>
-                <input type="number" class="form-control" id="Cantidad" name="Cantidad" value="@Model.Cantidad" required />
+                <label for="Precio" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="Precio" name="Precio" step="0.01" value="@Model.Precio" required />
+            </div>
+
+            <!-- Campo para el stock -->
+            <div class="mb-3">
+                <label for="Stock" class="form-label">Stock</label>
+                <input type="number" class="form-control" id="Stock" name="Stock" value="@Model.Stock" min="0" required />
+            </div>
+
+            <!-- Campo para la alerta de stock -->
+            <div class="mb-3">
+                <label for="AlertaStock" class="form-label">Alerta de Stock</label>
+                <input type="number" class="form-control" id="AlertaStock" name="AlertaStock" value="@Model.AlertaStock" min="0" required />
+            </div>
+
+            <!-- Campo para la URL de la imagen -->
+            <div class="mb-3">
+                <label for="UrlImagen" class="form-label">URL de Imagen</label>
+                <input type="url" class="form-control" id="UrlImagen" name="UrlImagen" value="@Model.UrlImagen" />
+            </div>
+
+            <!-- Campo para estado activo -->
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="Activo" name="Activo" @(Model.Activo ? "checked" : "") />
+                <label class="form-check-label" for="Activo">Activo</label>
             </div>
 
             <button type="submit" class="btn btn-primary">Actualizar</button>

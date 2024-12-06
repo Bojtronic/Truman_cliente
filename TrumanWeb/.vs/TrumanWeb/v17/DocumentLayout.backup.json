@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Editar.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Editar.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T07:53:47.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Crear.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Crear.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T07:45:36.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T07:39:15.647Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv1QAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:54:53.005Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T03:30:49.823Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

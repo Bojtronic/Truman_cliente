@@ -7,29 +7,36 @@ namespace TrumanWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IService_API<Usuario> _service_api; // Especificar el tipo de modelo
+        private readonly IService_API<Producto> _service_api; // Inyectamos el servicio con el tipo Producto
+        private readonly IService_API<Categoria> _categoria_service; // Servicio para las categorías
 
-        public HomeController(IService_API<Usuario> service)
+        public HomeController(IService_API<Producto> service, IService_API<Categoria> categoriaService)
         {
             _service_api = service;
+            _categoria_service = categoriaService;
         }
 
+        // Acción para mostrar la página de inicio con el catálogo de productos
         public async Task<IActionResult> Index()
         {
-            List<Usuario> lista = await _service_api.Lista("usuario"); // Obtener la lista de usuarios
+            List<Producto> listaProductos = await _service_api.Lista("productos"); // Obtener la lista de productos
+            List<Categoria> listaCategorias = await _categoria_service.Lista("categorias"); // Obtener lista de categorías
 
-            return View(lista);
-        }
+            // Crear un modelo compuesto para pasarlo a la vista
+            var modelo = new HomeViewModel
+            {
+                Productos = listaProductos,
+                Categorias = listaCategorias
+            };
 
-        public IActionResult Privacy()
-        {
-            return View();
+            return View(modelo); // Pasar los productos y categorías a la vista
         }
+    }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+    // Modelo para la vista principal que contiene productos y categorías
+    public class HomeViewModel
+    {
+        public List<Producto> Productos { get; set; }
+        public List<Categoria> Categorias { get; set; }
     }
 }
