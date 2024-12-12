@@ -1,55 +1,55 @@
 ﻿@model List<TrumanWeb.Models.Producto>
 
 @{
-    ViewData["Title"] = "Productos - Lista";
+    ViewData["Title"] = "Busqueda avanzada de Productos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Lista de Productos</h1>
+
+<!-- Título de la página -->
+<div class="text-center mt-5">
+    <h1 class="display-4">Explora nuestro Catálogo</h1>
+    <p class="lead">Busqueda avanzada de productos</p>
 </div>
 
-<div class="card">
-    <div class="card-header">
-        Productos
-        <a href="@Url.Action("Crear")" class="btn btn-primary float-end">Crear Producto</a>
-    </div>
-    <div class="card-body">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Categoria</th>
-                    <th>Nombre</th>
-                    <th>Descripción</th>
-                    <th>Precio</th>
-                    <th>Stock</th>
-                    <th>Alerta Stock</th>
-                    <th>Activo</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var producto in Model)
-                {
-                    <tr>
-                        <td>@producto.IdProducto</td>
-                        <td>@producto.IdCategoria</td>
-                        <td>@producto.NombreProducto</td>
-                        <td>@producto.DescripcionProducto</td>
-                        <td>@producto.Precio</td>
-                        <td>@producto.Stock</td>
-                        <td>@producto.AlertaStock</td>
-                        <td>@(producto.Activo ? "Sí" : "No")</td>
-                        <td>
-                            <a href="@Url.Action("Detalle", new { id = producto.IdProducto })" class="btn btn-info btn-sm">Ver</a>
-                            <a href="@Url.Action("Editar", new { id = producto.IdProducto })" class="btn btn-warning btn-sm">Editar</a>
-                            <form action="@Url.Action("Eliminar", new { id = producto.IdProducto })" method="post" class="d-inline">
-                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
-                            </form>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+<!-- Barra de búsqueda -->
+<div class="container mt-4">
+    <div class="form-group">
+        <label for="searchBar">Buscar producto</label>
+        <input type="text" id="searchBar" class="form-control" placeholder="Escribe para buscar productos...">
     </div>
 </div>
+
+<!-- Catálogo de productos -->
+<div class="container mt-4">
+    <div class="row" id="productCatalog">
+        @foreach (var producto in Model)
+        {
+            <div class="col-md-4 mb-4 product-card">
+                <div class="card">
+                    <img src="@producto.UrlImagen" class="card-img-top" alt="@producto.NombreProducto">
+                    <div class="card-body">
+                        <h5 class="card-title product-name">@producto.NombreProducto</h5>
+                        <p class="card-text">@producto.DescripcionProducto</p>
+                        <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
+                        <p class="card-text"><strong>Stock:</strong> @producto.Stock</p>
+                        <a href="@Url.Action("Detalle", "Productos", new { id = producto.IdProducto })" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    // Función para filtrar productos
+    document.getElementById('searchBar').addEventListener('input', function () {
+        const searchText = this.value.toLowerCase();
+        const productCards = document.querySelectorAll('.product-card');
+
+        productCards.forEach(card => {
+            const productName = card.querySelector('.product-name').textContent.toLowerCase();
+            // Mostrar todos los productos si la barra está vacía o filtrar si hay texto
+            card.style.display = searchText === '' || productName.includes(searchText) ? 'block' : 'none';
+        });
+    });
+</script>

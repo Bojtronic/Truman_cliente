@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrumanWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42bee5bf06eb416c6293b2db0bb6138eaf051daf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4be0983928c0200906890eeb5fd1a0a0955d540")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrumanWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrumanWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
