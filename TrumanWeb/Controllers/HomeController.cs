@@ -17,10 +17,20 @@ namespace TrumanWeb.Controllers
         }
 
         // Acción para mostrar la página de inicio con el catálogo de productos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoriaId)
         {
-            List<Producto> listaProductos = await _service_api.Lista("productos"); // Obtener la lista de productos
-            List<Categoria> listaCategorias = await _categoria_service.Lista("categorias"); // Obtener lista de categorías
+            // Obtener lista de productos
+            List<Producto> listaProductos = await _service_api.Lista("productos");
+
+            
+            if (categoriaId.HasValue && categoriaId.Value > 0)
+            {
+                listaProductos = listaProductos.Where(p => p.IdCategoria == categoriaId.Value).ToList();
+            }
+
+
+            // Obtener lista de categorías
+            List<Categoria> listaCategorias = await _categoria_service.Lista("categorias");
 
             // Crear un modelo compuesto para pasarlo a la vista
             var modelo = new HomeViewModel

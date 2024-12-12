@@ -10,12 +10,12 @@
 
 <div class="card">
     <div class="card-header">
-        @Model.Nombre
+        @Model.NombreProducto
     </div>
     <div class="card-body">
-        <p><strong>Id:</strong> @Model.Id</p>
-        <p><strong>Categoría:</strong> @Model.Categoria?.Descripcion ?? "Sin categoría"</p>
-        <p><strong>Descripción:</strong> @Model.Descripcion</p>
+        <p><strong>Id:</strong> @Model.IdProducto</p>
+        <p><strong>Categoría:</strong> @Model.IdCategoria ?? "Sin categoría"</p>
+        <p><strong>Descripción:</strong> @Model.DescripcionProducto</p>
         <p><strong>Precio:</strong> $@Model.Precio.ToString("F2")</p>
         <p><strong>Stock:</strong> @Model.Stock</p>
         <p><strong>Alerta de Stock:</strong> @Model.AlertaStock</p>
@@ -34,7 +34,7 @@
         <p><strong>Fecha de Registro:</strong> @Model.FechaRegistro.ToString("dd/MM/yyyy HH:mm")</p>
 
         <a href="@Url.Action("Index", "Productos")" class="btn btn-primary">Volver a la lista</a>
-        <a href="@Url.Action("Edit", "Productos", new { id = Model.Id })" class="btn btn-secondary">Editar</a>
-        <a href="@Url.Action("Delete", "Productos", new { id = Model.Id })" class="btn btn-danger">Eliminar</a>
+        <a href="@Url.Action("Edit", "Productos", new { id = Model.IdProducto })" class="btn btn-secondary">Editar</a>
+        <a href="@Url.Action("Delete", "Productos", new { id = Model.IdProducto })" class="btn btn-danger">Eliminar</a>
     </div>
 </div>

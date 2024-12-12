@@ -28,12 +28,10 @@ namespace TrumanAPI.Controllers
             using (var context = new SqlConnection(GetConnectionString()))
             {
                 var productos = context.Query<Producto>(@"
-                    SELECT p.idProducto AS Id, p.idCategoria AS CategoriaId, p.nombreProducto AS Nombre,
-                           p.descripcionProducto AS Descripcion, p.precio AS Precio, p.stock AS Stock,
-                           p.alertaStock AS AlertaStock, p.urlImagen AS UrlImagen, p.activo AS Activo, p.fechaRegistro AS FechaRegistro,
-                           c.idCategoria AS Categoria_Id, c.descripcion AS Categoria_Descripcion
-                    FROM Productos p
-                    LEFT JOIN Categorias c ON p.idCategoria = c.idCategoria");
+                    SELECT idProducto, idCategoria, nombreProducto,
+                           descripcionProducto, precio, stock,
+                           alertaStock, urlImagen, activo, fechaRegistro
+                    FROM Productos");
                 return Ok(productos);
             }
         }
@@ -45,13 +43,10 @@ namespace TrumanAPI.Controllers
             using (var context = new SqlConnection(GetConnectionString()))
             {
                 var producto = context.QueryFirstOrDefault<Producto>(@"
-                    SELECT p.idProducto AS Id, p.idCategoria AS CategoriaId, p.nombreProducto AS Nombre,
-                           p.descripcionProducto AS Descripcion, p.precio AS Precio, p.stock AS Stock,
-                           p.alertaStock AS AlertaStock, p.urlImagen AS UrlImagen, p.activo AS Activo, p.fechaRegistro AS FechaRegistro,
-                           c.idCategoria AS Categoria_Id, c.descripcion AS Categoria_Descripcion
-                    FROM Productos p
-                    LEFT JOIN Categorias c ON p.idCategoria = c.idCategoria
-                    WHERE p.idProducto = @Id", new { Id = id });
+                    SELECT idProducto, idCategoria, nombreProducto,
+                           descripcionProducto, precio, stock,
+                           alertaStock, urlImagen, activo, fechaRegistro
+                    FROM Productos WHERE idProducto = @Id", new { Id = id });
 
                 if (producto == null)
                     return NotFound(new { Mensaje = "Producto no encontrado" });
@@ -76,9 +71,9 @@ namespace TrumanAPI.Controllers
 
                 var id = context.ExecuteScalar<int>(sql, new
                 {
-                    model.CategoriaId,
-                    model.Nombre,
-                    model.Descripcion,
+                    model.IdCategoria,
+                    model.NombreProducto,
+                    model.DescripcionProducto,
                     model.Precio,
                     model.Stock,
                     model.AlertaStock,
@@ -86,7 +81,7 @@ namespace TrumanAPI.Controllers
                     model.Activo
                 });
 
-                model.Id = id;
+                model.IdProducto = id;
                 return CreatedAtAction(nameof(GetProductoById), new { id }, model);
             }
         }
@@ -102,7 +97,7 @@ namespace TrumanAPI.Controllers
             {
                 // Verificar si el producto existe usando el id del modelo
                 var existingProducto = context.QueryFirstOrDefault<Producto>(@"
-                    SELECT * FROM Productos WHERE idProducto = @Id", new { Id = model.Id });
+                    SELECT * FROM Productos WHERE idProducto = @Id", new { Id = model.IdProducto });
 
                 if (existingProducto == null)
                     return NotFound(new { Mensaje = "Producto no encontrado" });
@@ -116,10 +111,10 @@ namespace TrumanAPI.Controllers
 
                 var rowsAffected = context.Execute(sql, new
                 {
-                    Id = model.Id,
-                    model.CategoriaId,
-                    model.Nombre,
-                    model.Descripcion,
+                    Id = model.IdProducto,
+                    model.IdCategoria,
+                    model.NombreProducto,
+                    model.DescripcionProducto,
                     model.Precio,
                     model.Stock,
                     model.AlertaStock,

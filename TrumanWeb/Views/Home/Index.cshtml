@@ -6,17 +6,14 @@
 
 <!-- Barra de navegación -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Catalogo de Productos</a>
+    <a class="navbar-brand" href="#">INICIO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio</a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="/productos">Productos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Categorias</a>
@@ -38,13 +35,16 @@
 <div class="container mt-4">
     <div class="form-group">
         <label for="categoriaFilter">Filtrar por Categoría</label>
-        <select id="categoriaFilter" class="form-control">
-            <option value="">Seleccionar Categoría</option>
-            @foreach (var categoria in Model.Categorias)
-            {
-                <option value="@categoria.Id">@categoria.Descripcion</option>
-            }
-        </select>
+        <form method="get" action="/Home/Index">
+            <select id="categoriaFilter" name="categoriaId" class="form-control" onchange="this.form.submit()">
+                <option value="">Seleccionar Categoría</option> 
+                <option value="0">Todos los productos</option>
+                @foreach (var categoria in Model.Categorias)
+                {
+                    <option value="@categoria.IdCategoria">@categoria.Descripcion</option>
+                }
+            </select>
+        </form>
     </div>
 </div>
 
@@ -55,10 +55,10 @@
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="@producto.UrlImagen" class="card-img-top" alt="@producto.Nombre">
+                    <img src="@producto.UrlImagen" class="card-img-top" alt="@producto.NombreProducto">
                     <div class="card-body">
-                        <h5 class="card-title">@producto.Nombre</h5>
-                        <p class="card-text">@producto.Descripcion</p>
+                        <h5 class="card-title">@producto.NombreProducto</h5>
+                        <p class="card-text">@producto.DescripcionProducto</p>
                         <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
                         <p class="card-text"><strong>Stock:</strong> @producto.Stock</p>
                         <a href="#" class="btn btn-primary">Ver detalles</a>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrumanAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51308b1b4e2a96338eb8144a655daa784b2d6467")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42bee5bf06eb416c6293b2db0bb6138eaf051daf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrumanAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrumanAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

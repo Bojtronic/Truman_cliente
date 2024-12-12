@@ -21,7 +21,7 @@
                     <option value="">Seleccione una categoría</option>
                     @foreach (var categoria in ViewBag.Categorias as List<TrumanWeb.Models.Categoria>)
                     {
-                        <option value="@categoria.Id" selected="@(categoria.Id == Model.CategoriaId ? "selected" : null)">
+                        <option value="@categoria.IdCategoria" selected="@(categoria.IdCategoria == Model.IdCategoria ? "selected" : null)">
                             @categoria.Descripcion
                         </option>
                     }
@@ -31,13 +31,13 @@
             <!-- Campo para el nombre del producto -->
             <div class="mb-3">
                 <label for="Nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.Nombre" required />
+                <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.NombreProducto" required />
             </div>
 
             <!-- Campo para la descripción -->
             <div class="mb-3">
                 <label for="Descripcion" class="form-label">Descripción</label>
-                <textarea class="form-control" id="Descripcion" name="Descripcion" required>@Model.Descripcion</textarea>
+                <textarea class="form-control" id="Descripcion" name="Descripcion" required>@Model.DescripcionProducto</textarea>
             </div>
 
             <!-- Campo para el precio -->

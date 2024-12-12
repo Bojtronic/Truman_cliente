@@ -403,7 +403,7 @@
       "Categoria": {
         "type": "object",
         "properties": {
-          "id": {
+          "idCategoria": {
             "type": "integer",
             "format": "int32"
           },
@@ -422,28 +422,22 @@
         "additionalProperties": false
       },
       "Producto": {
-        "required": [
-          "categoria"
-        ],
         "type": "object",
         "properties": {
-          "id": {
+          "idProducto": {
             "type": "integer",
             "format": "int32"
           },
-          "categoriaId": {
+          "idCategoria": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "categoria": {
-            "$ref": "#/components/schemas/Categoria"
-          },
-          "nombre": {
+          "nombreProducto": {
             "type": "string",
             "nullable": true
           },
-          "descripcion": {
+          "descripcionProducto": {
             "type": "string",
             "nullable": true
           },
@@ -457,7 +451,8 @@
           },
           "alertaStock": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "urlImagen": {
             "type": "string",

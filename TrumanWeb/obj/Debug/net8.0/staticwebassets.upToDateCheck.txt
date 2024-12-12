@@ -1,5 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\KOB109.png
+wwwroot\img\KOB222.png
+wwwroot\img\KOB51.png
+wwwroot\img\KOB52.png
+wwwroot\img\KOB54.png
+wwwroot\img\KOB55.png
+wwwroot\img\KOB56.png
+wwwroot\img\KOB60.png
+wwwroot\img\KOB61.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

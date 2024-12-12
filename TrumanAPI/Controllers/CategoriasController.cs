@@ -28,8 +28,7 @@ namespace TrumanAPI.Controllers
             using (var context = new SqlConnection(GetConnectionString()))
             {
                 var categorias = context.Query<Categoria>(@"
-                    SELECT idCategoria AS Id, descripcion AS Descripcion, activo AS Activo, fechaRegistro AS FechaRegistro
-                    FROM Categorias");
+                    SELECT idCategoria , descripcion, activo, fechaRegistro FROM Categorias");
                 return Ok(categorias);
             }
         }
@@ -72,7 +71,7 @@ namespace TrumanAPI.Controllers
                     model.Activo
                 });
 
-                model.Id = id;
+                model.IdCategoria = id;
                 return CreatedAtAction(nameof(GetCategoriaById), new { id }, model);
             }
         }
@@ -88,7 +87,7 @@ namespace TrumanAPI.Controllers
             {
                 // Verificar si la categoría existe
                 var existingCategoria = context.QueryFirstOrDefault<Categoria>(@"
-                    SELECT * FROM Categorias WHERE idCategoria = @Id", new { Id = model.Id });
+                    SELECT * FROM Categorias WHERE idCategoria = @Id", new { Id = model.IdCategoria });
 
                 if (existingCategoria == null)
                     return NotFound(new { Mensaje = "Categoría no encontrada" });
@@ -101,7 +100,7 @@ namespace TrumanAPI.Controllers
 
                 var rowsAffected = context.Execute(sql, new
                 {
-                    Id = model.Id,
+                    Id = model.IdCategoria,
                     model.Descripcion,
                     model.Activo
                 });

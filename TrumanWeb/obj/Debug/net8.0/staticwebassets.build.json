@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2yIKMwdsaFBmL8ow2Shd5qw3Av+7o3W86WO2iLkbrso=",
+  "Hash": "jcbrBejSB+SCBbDx6wBoxu6EIIpwVCZ+kE09XZOP1FU=",
   "Source": "TrumanWeb",
   "BasePath": "_content/TrumanWeb",
   "Mode": "Default",
@@ -99,6 +99,195 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB109.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB109#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "okkh39wuxw",
+      "Integrity": "mFb4gnfgKOWEv08ho8MXiMj4yPiAZwUk/ZtNZS9wkro=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB109.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB222.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB222#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "22y225b3t3",
+      "Integrity": "FgGcENz1rgSgq5gcj0fMl4K+n8Tz+eBQ1wsaK+PViIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB222.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB51.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB51#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hz5qffxfxl",
+      "Integrity": "zXv+kdOp5lhEK4YPW81xCQRLwVtiE4NOu4l5loanyQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB51.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB52.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB52#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xx4tamoigp",
+      "Integrity": "u9+S3pCZHdnnlLOgrwAGNfSihIW29RfzllOpuDU4q8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB52.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB54.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB54#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wcea1gnyjq",
+      "Integrity": "MDjlguDYNAlYs5K9Z26k+8QO9OFHkTuVCnQjXfDM3Y4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB54.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB55.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB55#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kec101u1wx",
+      "Integrity": "9EbuVS6H+uHLKZsc4E0LFhODlZg5sKEn6dCCBIWa3dk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB55.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB56.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB56#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dsgiippl3z",
+      "Integrity": "fUvHgG+OpD9HgaqbJcqPbmiZhGVQd6oV0JTgboDE+F4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB56.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB60.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB60#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "apat4mlw5u",
+      "Integrity": "kjjZ5W/MQbWH9V+Dl9uHUjRhm3wWIp9vJcjMzvdzDAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB60.png"
+    },
+    {
+      "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB61.png",
+      "SourceId": "TrumanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\",
+      "BasePath": "_content/TrumanWeb",
+      "RelativePath": "img/KOB61#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6w1hsbza6",
+      "Integrity": "LWqppqfZfssWJhT1P9OhKRi6W4tRkR/ah1BvuJJ2Jvg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KOB61.png"
     },
     {
       "Identity": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\js\\site.js",
@@ -1481,6 +1670,744 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB109.okkh39wuxw.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB109.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mFb4gnfgKOWEv08ho8MXiMj4yPiAZwUk/ZtNZS9wkro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:29:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okkh39wuxw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB109.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mFb4gnfgKOWEv08ho8MXiMj4yPiAZwUk/ZtNZS9wkro="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB109.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB109.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mFb4gnfgKOWEv08ho8MXiMj4yPiAZwUk/ZtNZS9wkro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:29:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mFb4gnfgKOWEv08ho8MXiMj4yPiAZwUk/ZtNZS9wkro="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB222.22y225b3t3.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB222.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgGcENz1rgSgq5gcj0fMl4K+n8Tz+eBQ1wsaK+PViIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:24:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "22y225b3t3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB222.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgGcENz1rgSgq5gcj0fMl4K+n8Tz+eBQ1wsaK+PViIA="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB222.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB222.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgGcENz1rgSgq5gcj0fMl4K+n8Tz+eBQ1wsaK+PViIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:24:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgGcENz1rgSgq5gcj0fMl4K+n8Tz+eBQ1wsaK+PViIA="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB51.hz5qffxfxl.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB51.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zXv+kdOp5lhEK4YPW81xCQRLwVtiE4NOu4l5loanyQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hz5qffxfxl"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB51.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zXv+kdOp5lhEK4YPW81xCQRLwVtiE4NOu4l5loanyQY="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB51.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB51.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zXv+kdOp5lhEK4YPW81xCQRLwVtiE4NOu4l5loanyQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zXv+kdOp5lhEK4YPW81xCQRLwVtiE4NOu4l5loanyQY="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB52.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB52.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9+S3pCZHdnnlLOgrwAGNfSihIW29RfzllOpuDU4q8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:29:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9+S3pCZHdnnlLOgrwAGNfSihIW29RfzllOpuDU4q8A="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB52.xx4tamoigp.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB52.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9+S3pCZHdnnlLOgrwAGNfSihIW29RfzllOpuDU4q8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:29:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xx4tamoigp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB52.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9+S3pCZHdnnlLOgrwAGNfSihIW29RfzllOpuDU4q8A="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB54.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB54.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDjlguDYNAlYs5K9Z26k+8QO9OFHkTuVCnQjXfDM3Y4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:27:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDjlguDYNAlYs5K9Z26k+8QO9OFHkTuVCnQjXfDM3Y4="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB54.wcea1gnyjq.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB54.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDjlguDYNAlYs5K9Z26k+8QO9OFHkTuVCnQjXfDM3Y4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:27:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcea1gnyjq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB54.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDjlguDYNAlYs5K9Z26k+8QO9OFHkTuVCnQjXfDM3Y4="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB55.kec101u1wx.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "119783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9EbuVS6H+uHLKZsc4E0LFhODlZg5sKEn6dCCBIWa3dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kec101u1wx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB55.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9EbuVS6H+uHLKZsc4E0LFhODlZg5sKEn6dCCBIWa3dk="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB55.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "119783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9EbuVS6H+uHLKZsc4E0LFhODlZg5sKEn6dCCBIWa3dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9EbuVS6H+uHLKZsc4E0LFhODlZg5sKEn6dCCBIWa3dk="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB56.dsgiippl3z.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUvHgG+OpD9HgaqbJcqPbmiZhGVQd6oV0JTgboDE+F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:26:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dsgiippl3z"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB56.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUvHgG+OpD9HgaqbJcqPbmiZhGVQd6oV0JTgboDE+F4="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB56.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUvHgG+OpD9HgaqbJcqPbmiZhGVQd6oV0JTgboDE+F4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:26:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUvHgG+OpD9HgaqbJcqPbmiZhGVQd6oV0JTgboDE+F4="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB60.apat4mlw5u.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB60.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kjjZ5W/MQbWH9V+Dl9uHUjRhm3wWIp9vJcjMzvdzDAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apat4mlw5u"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB60.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kjjZ5W/MQbWH9V+Dl9uHUjRhm3wWIp9vJcjMzvdzDAM="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB60.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB60.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kjjZ5W/MQbWH9V+Dl9uHUjRhm3wWIp9vJcjMzvdzDAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kjjZ5W/MQbWH9V+Dl9uHUjRhm3wWIp9vJcjMzvdzDAM="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB61.l6w1hsbza6.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB61.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LWqppqfZfssWJhT1P9OhKRi6W4tRkR/ah1BvuJJ2Jvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6w1hsbza6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/KOB61.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LWqppqfZfssWJhT1P9OhKRi6W4tRkR/ah1BvuJJ2Jvg="
+        }
+      ]
+    },
+    {
+      "Route": "img/KOB61.png",
+      "AssetFile": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\wwwroot\\img\\KOB61.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LWqppqfZfssWJhT1P9OhKRi6W4tRkR/ah1BvuJJ2Jvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 05:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LWqppqfZfssWJhT1P9OhKRi6W4tRkR/ah1BvuJJ2Jvg="
         }
       ]
     },

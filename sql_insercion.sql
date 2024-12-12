@@ -6,9 +6,9 @@ VALUES ('Electrónica', 1),
 
 -- Insertar datos en la tabla Productos
 INSERT INTO Productos (idCategoria, nombreProducto, descripcionProducto, precio, stock, alertaStock, urlImagen, activo) 
-VALUES (1, 'Smartphone', 'Smartphone de última generación', 599.99, 50, 10, 'https://example.com/smartphone.jpg', 1),
-       (2, 'Camiseta', 'Camiseta de algodón', 19.99, 200, 10, 'https://example.com/camiseta.jpg', 1),
-       (3, 'Sofá', 'Sofá de 3 plazas', 899.99, 20, 5, 'https://example.com/sofa.jpg', 1);
+VALUES (1, 'Smartphone', 'Smartphone de última generación', 599.99, 50, 10, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWLfzTbv6C6iy_zuxuxPQGj919PxbTr2bjw&s', 1),
+       (2, 'Camiseta', 'Camiseta de algodón', 19.99, 200, 10, 'https://bordadosochoa.com/wp-content/uploads/2024/02/Logo-pecho.webp', 1),
+       (3, 'Sofá', 'Sofá de 3 plazas', 899.99, 20, 5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKFCBvvCTXf7KJnbDgCze_fKVt9p2DAXyo5Q&s', 1);
 
 -- Insertar datos en la tabla Clientes
 INSERT INTO Clientes (nombreCliente, apellidosCliente, emailCliente, contrasena, direccion, telefono, activo) 

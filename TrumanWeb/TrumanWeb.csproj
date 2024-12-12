@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\img\KOB109.png" />
+    <None Include="wwwroot\img\KOB222.png" />
+    <None Include="wwwroot\img\KOB51.png" />
+    <None Include="wwwroot\img\KOB52.png" />
+    <None Include="wwwroot\img\KOB54.png" />
+    <None Include="wwwroot\img\KOB55.png" />
+    <None Include="wwwroot\img\KOB56.png" />
+    <None Include="wwwroot\img\KOB60.png" />
+    <None Include="wwwroot\img\KOB61.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
