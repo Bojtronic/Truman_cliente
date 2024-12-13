@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\contacto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\contacto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\controllers\\contactocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:controllers\\contactocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE0FE6F2-82C7-4D3A-8DE1-B5081D5130D7}|TrumanWeb.csproj|c:\\users\\manuel\\documents\\brete\\joel\\repo\\truman_cliente\\trumanweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +58,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Usuario\\Registro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Usuario\\Registro.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Registro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:48:22.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:47:57.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:47:05.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Contacto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Contacto\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contacto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:35:33.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactoController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\ContactoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactoController.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\ContactoController.cs",
+              "RelativeToolTip": "Controllers\\ContactoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:35:20.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Carrito\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carrito\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Carrito\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carrito\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:34:46.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:34:19.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -42,25 +157,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T23:49:40.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T23:49:40.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T23:48:43.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Views\\Productos\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
@@ -73,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Manuel\\Documents\\Brete\\Joel\\repo\\Truman_cliente\\TrumanWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -81,8 +182,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:58:00.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T20:58:00.16Z"
             }
           ]
         }
